@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-16x16.png" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <!-- 
+    <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>HUNZA-CANDLES</title>
+  </head>
+  <body class="">
+    <header class="">
+      <div class="bg-black h-8 flex items-center justify-center">
+        <p class="text-white text-center text-xs">
+          Welcome to Hunza Candles! Enjoy free shipping on orders PKR 2000 and
+          up
+        </p>
+      </div>
+      <!--NAV BAR-->
+      <div class="flex items-center justify-between">
+        <!-- <img src="./assets/cover.jpg" alt="cover" class="absolute" /> -->
+        <div class="w-1/3">
+          <img src="./assets/logo2.png" alt="" class="w-44" />
+        </div>
+        <div class="w-1/3 relative">
+          <img
+            src="./assets/loupe (1).png"
+            alt=""
+            class="absolute right-7 top-1 w-4 h-4 z-10"
+          />
+          <input
+            type="text"
+            class="border-b-2 border-b-black outline-none px-4 pb-4 placeholder:text-sm placeholder:text-slate-900 w-full"
+            placeholder="Search and Shop"
+          />
+        </div>
+        <div class="w-1/3 flex items-center justify-end space-x-5 pr-7">
+          <img src="./assets/user.png" alt="" class="w-6" />
+          <img src="./assets/heart.png" alt="" class="w-6" />
+          <img src="./assets/bag.png" alt="" class="w-6" />
+        </div>
+      </div>
+      <div>
+        <ul class="flex items-center justify-center space-x-10">
+          <a href="" class="hover:border-b pb-6 hover:border-b-black"
+            ><li>HOME</li></a
+          >
+          <a href="" class="hover:border-b pb-6 hover:border-b-black"
+            ><li>GLASS & JARS</li></a
+          >
+          <a href="" class="hover:border-b pb-6 hover:border-b-black"
+            ><li>PILLARS</li></a
+          >
+          <a href="" class="hover:border-b pb-6 hover:border-b-black"
+            ><li>CERAMIC JARS</li></a
+          >
+          <a href="" class="hover:border-b pb-6 hover:border-b-black"
+            ><li>BURNER</li></a
+          >
+        </ul>
+      </div>
+    </header>
+    <div
+      style="background-image: url(./assets/cover.jpg)"
+      class="h-[650px] bg-no-repeat bg-cover bg-bottom relative"
+    >
+      <div
+        class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-r from-white to-transparent opacity-45"
+      ></div>
+      <div
+        class="px-10 flex flex-col justify-center h-full space-y-7 relative z-10"
+      >
+        <div class="text-5xl text-black font-bold">
+          A pair of heavenly <br />
+          incensed home <br />
+          fragnance
+        </div>
+        <div class="max-w-md">
+          A waft of your favourite fragnance is all you need to brighten up your
+          day. Enjoy broad collection of liquid fragnances encapsulated in
+          classic vitals
+        </div>
+        <div
+          class="cursor-pointer px-9 py-4 bg-black mr-auto text-white text-xs"
+        >
+          SHOP NOW
+        </div>
+        <div class="flex space-x-3 items-center pt-16">
+          <div class="w-24 border-b-black border-b-2"></div>
+          <div class="-mt-3"><span class="text-yellow-500">01</span>/03</div>
+        </div>
+      </div>
+    </div>
+    <!--Cards-->
+    <div
+      class="flex items-center justify-between px-10 my-20 space-x-5 text-white"
+    >
+      <div
+        style="background-image: url(./assets/candle1.jpg)"
+        class="w-1/3 h-80 bg-cover bg-no-repeat relative"
+      >
+        <div
+          class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-black to-transparent opacity-35"
+        ></div>
+        <div
+          class="absolute top-0 right-0 left-0 bottom-0 flex flex-col items-center justify-start pt-10 z-10 space-y-5"
+        >
+          <h1 class="text-yellow-400 font-semibold italic text-2xl">
+            Featured
+          </h1>
+          <h1 class="text-2xl">FRAGNANCE OIL BURNERS</h1>
+          <p class="max-w-sm text-center text-sm">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
+            pariatur facere repudiandae architecto reprehenderit iusto.
+          </p>
+        </div>
+      </div>
+
+      <div
+        style="background-image: url(./assets/candle2.jpg)"
+        class="w-1/3 h-80 bg-cover bg-no-repeat relative"
+      >
+        <div
+          class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-black to-transparent opacity-35"
+        ></div>
+        <div
+          class="absolute top-0 right-0 left-0 bottom-0 flex flex-col items-center justify-start pt-10 z-10 space-y-5"
+        >
+          <h1 class="text-yellow-400 font-semibold italic text-2xl">
+            BestSeller
+          </h1>
+          <h1 class="text-2xl">GLASS & JAR BURNERS</h1>
+          <p class="max-w-sm text-center text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            amet veniam dolores libero nam quia nesciunt corrupti esse
+            laboriosam! Atque ducimus ea sapiente officia veritatis?
+          </p>
+        </div>
+      </div>
+
+      <div
+        style="background-image: url(./assets/candle3.jpg)"
+        class="w-1/3 h-80 bg-cover bg-no-repeat relative"
+      >
+        <div
+          class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-black to-transparent opacity-35"
+        ></div>
+        <div
+          class="absolute top-0 right-0 left-0 bottom-0 flex flex-col items-center justify-start pt-10 z-10 space-y-5"
+        >
+          <h1 class="text-yellow-400 font-semibold italic text-2xl">
+            Speacial
+          </h1>
+          <h1 class="text-2xl">CERAMIC CANDLES</h1>
+          <p class="max-w-sm text-center text-sm">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
+            pariatur facere repudiandae architecto reprehenderit iusto.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--ROUNDED CARDS -->
+    <div class="flex items-center justify-between max-w-6xl mx-auto">
+      <div class="flex flex-col items-start justify-center">
+        <h1 class="text-yellow-400 text-3xl">Categories</h1>
+        <p class="text-2xl">SHOP BY SCENT TYPE</p>
+      </div>
+      <div class="flex items-center justify-between space-x-5">
+        <!--round card-->
+        <div class="flex flex-col items-center justify-center space-y-2">
+          <img
+            src="./assets/fruits.jpg"
+            alt=""
+            class="rounded-full w-32 h-32"
+          />
+          <h1 class="text-sm">Fruity</h1>
+          <p class="text-xs text-yellow-600">05 Products</p>
+        </div>
+
+        <!--round card-->
+        <div class="flex flex-col items-center justify-center space-y-2">
+          <img src="./assets/veg.jpg" alt="" class="rounded-full w-32 h-32" />
+          <h1 class="text-sm">Floral</h1>
+          <p class="text-xs text-yellow-600">10 Products</p>
+        </div>
+
+        <!--round card-->
+        <div class="flex flex-col items-center justify-center space-y-2">
+          <img
+            src="./assets/perfumes.jpg"
+            alt=""
+            class="rounded-full w-32 h-32"
+          />
+          <h1 class="text-sm">Perfumy</h1>
+          <p class="text-xs text-yellow-600">12 Products</p>
+        </div>
+
+        <!--round card-->
+        <div class="flex flex-col items-center justify-center space-y-2">
+          <img
+            src="./assets/spices.jpg"
+            alt=""
+            class="rounded-full w-32 h-32"
+          />
+          <h1 class="text-sm">Spices</h1>
+          <p class="text-xs text-yellow-600">15 Products</p>
+        </div>
+      </div>
+    </div>
+    <!--Get Some Extra Section-->
+    <div
+      style="background-image: url('./assets/flowerbanner.jpg')"
+      class="bg-cover bg-no-repeat w-full relative my-20"
+    >
+      <div
+        class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-yellow-300 to-yellow-600 opacity-60"
+      ></div>
+      <!--Content-->
+      <div class="py-20 flex items-center justify-between max-w-7xl mx-auto">
+        <div
+          class="flex flex-col items-start justify-center space-y-5 relative z-10 max-w-xl px-10"
+        >
+          <h1 class="text-5xl font-bold">
+            GET SOME EXTRA SPECIAL 'ME' TIME DELIVERED TO YOU EVERY MONTH
+          </h1>
+          <p class="max-w-sm">
+            A waft of your favourite fragnance is all you need to brighten up
+            your day. Enjoy broad collection of liquid fragnances encapsulated
+            in classic vitals
+          </p>
+        </div>
+        <div class="flex items-center justify-center space-x-10">
+          <!--Card 01-->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 bg-white relative z-10 p-1 pb-4"
+          >
+            <img src="./assets/candlecard.jpg" alt="" class="w-60 h-64" />
+            <h1 class="text-sm font-semibold">AMBER-CERAMIC JAR</h1>
+            <h2 class="text-xs text-yellow-600">PKR. 3,000-5,500</h2>
+            <button class="text-xs font-semibold bg-black px-4 py-2 text-white">
+              ADD TO CART
+            </button>
+          </div>
+          <!--Card 02-->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 bg-white relative z-10 p-1 pb-4"
+          >
+            <img src="./assets/candlecard2.jpg" alt="" class="w-60 h-64" />
+            <h1 class="text-sm font-semibold">NIGHT-BLOOMING JASMINE</h1>
+            <h2 class="text-xs text-yellow-600">PKR. 3,000-5,500</h2>
+            <button class="text-xs font-semibold bg-black px-4 py-2 text-white">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ITEMS SECTION-->
+    <div class="flex flex-col space-y-28 items-center justify-center">
+      <!--First Row-->
+      <div class="flex items-center justify-between space-x-20">
+        <!--Item 01-->
+        <div
+          class="flex flex-col items-start justify-center space-y-5 max-w-xs"
+        >
+          <h1 class="text-yellow-500 text-2xl">Favourities</h1>
+          <h2 class="font-semibold text-2xl">FEATURED CANDLES</h2>
+          <p class="text-xs font-semibold max-w-xs">
+            A waft of your favourite fragnance <br />
+            is all you need to brighten up <br />
+            your day.
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            SHOP NOW
+          </button>
+        </div>
+        <!--Item 02-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w-xs text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+        <!--Item 03-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar2.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w-xs text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+        <!--Item 04-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar4.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w- text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+      <!--Second Row-->
+      <div class="flex items-center justify-between space-x-20">
+        <!--Item 01-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar5.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w-xs text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+        <!--Item 02-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar4.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w-xs text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+        <!--Item 03-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar2.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w-xs text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+        <!--Item 04-->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 max-w-xs"
+        >
+          <img src="./assets/productjar4.png" alt="" class="w-60 h-48" />
+          <h2 class="font-semibold text-md">AMBER-CERAMIC JAR</h2>
+          <p class="text-xs font-semibold max-w- text-yellow-500">
+            PKR. 3,000-5,500
+          </p>
+          <button class="px-4 py-2 bg-black text-white text-xs">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--SPECIAL OFFER SECTION-->
+    <div class="pb-10 mt-20">
+      <div class="flex items-center justify-center bg-[#fff9f1]">
+        <img src="./assets/redcandle.jpg" alt="" class="w-1/2 h-[450px]" />
+        <div
+          class="w-1/2 flex flex-col items-start justify-center space-y-10 px-10"
+        >
+          <h1 class="text-3xl font-semibold text-yellow-500">SPECIAL OFFER</h1>
+          <h1 class="text-xl font-semibold">DEAL OF THE WEEK!</h1>
+          <p class="max-w-lg font-semibold text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            eveniet in deleniti? Repudiandae, facere dolorum!
+          </p>
+          <div class="flex items-center justify-center space-x-5 font-bold">
+            <p class="font-semibold text-2xl">06</p>
+            <p>:</p>
+            <p class="font-semibold text-2xl">16</p>
+            <p>:</p>
+            <p class="font-semibold text-2xl">20</p>
+            <p>:</p>
+            <p class="font-semibold text-2xl">09</p>
+          </div>
+          <button class="px-7 py-2 bg-black text-sm text-white">
+            SHOP NOW
+          </button>
+        </div>
+      </div>
+      <!--Bottom content-->
+      <div class="flex items-center justify-center bg-[#F1F1F1] py-20">
+        <div
+          class="w-1/2 flex flex-col items-start justify-center space-y-8 px-10"
+        >
+          <h1 class="text-3xl font-semibold text-yellow-500">Favourities</h1>
+          <h1 class="text-xl font-semibold">FEATURED FRAGNANCES</h1>
+          <p class="max-w-lg font-semibold text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            eveniet in deleniti? Repudiandae, facere dolorum!
+          </p>
+          <button class="px-7 py-2 bg-black text-sm text-white">
+            SHOP NOW
+          </button>
+        </div>
+        <div class="w-1/2 flex flex-col items-center justify-center space-y-8">
+          <!--first row-->
+          <div class="flex items-center justify-center space-x-7">
+            <!--item 01-->
+            <div
+              class="flex space-x-5 items-center justify-center bg-white h-44 p-3"
+            >
+              <img src="./assets/oil.png" alt="" class="w-1/2 h-full my-auto" />
+              <div
+                class="flex flex-col items-start justify-center h-full w-1/2 pt-7 space-y-3"
+              >
+                <h1 class="text-sm font-semibold">ROSE</h1>
+                <p class="text-xs text-y">PKR. 600</p>
+                <button class="px-4 py-2 bg-black text-xs text-white">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <!--item 02-->
+            <div
+              class="flex space-x-5 items-center justify-center bg-white h-44 p-3"
+            >
+              <img src="./assets/oil.png" alt="" class="w-1/2 h-full my-auto" />
+              <div
+                class="flex flex-col items-start justify-center h-full w-1/2 pt-7 space-y-3"
+              >
+                <h1 class="text-sm font-semibold">ROSE</h1>
+                <p class="text-xs text-y">PKR. 600</p>
+                <button class="px-4 py-2 bg-black text-xs text-white">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--second row-->
+          <div class="flex items-center justify-center space-x-7">
+            <!--item 01-->
+            <div
+              class="flex space-x-5 items-center justify-center bg-white h-44 p-3"
+            >
+              <img src="./assets/oil.png" alt="" class="w-1/2 h-full my-auto" />
+              <div
+                class="flex flex-col items-start justify-center h-full w-1/2 pt-7 space-y-3"
+              >
+                <h1 class="text-sm font-semibold">ROSE</h1>
+                <p class="text-xs text-y">PKR. 600</p>
+                <button class="px-4 py-2 bg-black text-xs text-white">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <!--item 02-->
+            <div
+              class="flex space-x-5 items-center justify-center bg-white h-44 p-3"
+            >
+              <img src="./assets/oil.png" alt="" class="w-1/2 h-full my-auto" />
+              <div
+                class="flex flex-col items-start justify-center h-full w-1/2 pt-7 space-y-3"
+              >
+                <h1 class="text-sm font-semibold">ROSE</h1>
+                <p class="text-xs text-y">PKR. 600</p>
+                <button class="px-4 py-2 bg-black text-xs text-white">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--LATEST NEWS SECTION-->
+    <div>
+      <div class="text-center">
+        <h1 class="text-2xl text-yellow-500">LATEST NEWS</h1>
+        <h1 class="text-2xl font-semibold">OUR BLOG UPDATES</h1>
+      </div>
+
+      <div
+        class="flex items-center justify-between space-x-5 max-w-7xl mx-auto mt-14 mb-10"
+      >
+        <!--ITEM 01-->
+        <div class="flex flex-col items-start justify-center space-y-2 w-1/3">
+          <img src="./assets/candle2.jpg" alt="" class="" />
+          <p class="text-xs font-semibold pt-4">August 5, 2022</p>
+          <h1 class="text-2xl font-semibold">GLASS & JAR CANDLES</h1>
+          <p class="text-xs max-w-sm font-semibold">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Sapiente, quia.
+          </p>
+        </div>
+
+        <!--ITEM 02-->
+        <div class="flex flex-col items-start justify-center space-y-2 w-1/3">
+          <img src="./assets/candle1.jpg" alt="" class="" />
+          <p class="text-xs font-semibold pt-4">August 5, 2022</p>
+          <h1 class="text-2xl font-semibold">CERAMIC JAR CANDLES</h1>
+          <p class="text-xs max-w-sm font-semibold">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Sapiente, quia.
+          </p>
+        </div>
+
+        <!--ITEM 03-->
+        <div class="flex flex-col items-start justify-center space-y-2 w-1/3">
+          <img src="./assets/cover.jpg" alt="" class="" />
+          <p class="text-xs font-semibold pt-4">August 5, 2022</p>
+          <h1 class="text-2xl font-semibold">HOME FRAGNANCES</h1>
+          <p class="text-xs max-w-sm font-semibold">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Sapiente, quia.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--TESTIMONIALS-->
+    <div class="mt-36 bg-[#F1F1F1] py-16">
+      <div class="text-center text-2xl mb-10">
+        <h1 class="text-yellow-400">TESTIMONIALS</h1>
+        <h1 class="font-semibold">WHAT CUSTOMER SAYS ABOUT US</h1>
+      </div>
+      <div class="flex items-center justify-between max-w-6xl mx-auto">
+        <!--item 01-->
+        <div class="flex flex-col items-center justify-center space-y-3 my-14">
+          <h1 class="font-semibold">"Fabulous Grounds"</h1>
+          <p class="text-center text-xs max-w-sm leading-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            dolorum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-yellow-400">Muhammad Ali</p>
+        </div>
+
+        <!--item 02-->
+        <div class="flex flex-col items-center justify-center space-y-3 my-14">
+          <h1 class="font-semibold">"Fabulous Grounds"</h1>
+          <p class="text-center text-xs max-w-sm leading-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            dolorum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-yellow-400">Muhammad Ali</p>
+        </div>
+
+        <!--item 03-->
+        <div class="flex flex-col items-center justify-center space-y-3 my-14">
+          <h1 class="font-semibold">"Fabulous Grounds"</h1>
+          <p class="text-center text-xs max-w-sm leading-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            dolorum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-yellow-400">Muhammad Ali</p>
+        </div>
+      </div>
+    </div>
+    <!--Follow us-->
+    <div class="my-20">
+      <div class="text-center font-semibold my-10">
+        <h1 class="text-2xl">FOLLOW US ON INSTAGRAM</h1>
+        <h1 class="text-yellow-500 text-lg">@HUNZA.CANDLE</h1>
+      </div>
+      <div class="flex items-center justify-center space-x-5">
+        <img src="./assets/candle1.jpg" alt="" class="w-44" />
+        <img src="./assets/candle2.jpg" alt="" class="w-44" />
+        <img src="./assets/candle3.jpg" alt="" class="w-44" />
+        <img src="./assets/candle1.jpg" alt="" class="w-44" />
+        <img src="./assets/cover.jpg" alt="" class="w-44" />
+        <img src="./assets/candle2.jpg" alt="" class="w-44" />
+      </div>
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="bg-black pb-6">
+        <div
+          class="p-6 pl-20 py-16 w-full flex items-start justify-center space-x-6"
+        >
+          <!--ITem 01-->
+          <div
+            class="w-1/3 flex flex-col space-y-3 items-start justify-between text-white text-xs"
+          >
+            <img src="./assets/logo - Copy.png" alt="" />
+            <p>
+              Head Office: Warehouse No141, Block-B Unit <br />
+              no 09, Latifabad, Hyderabad
+            </p>
+            <p>Phone: +923102788196</p>
+
+            <p>Email: xyz@gmail.com</p>
+          </div>
+
+          <!--Item 02-->
+          <div
+            class="flex items-center justify-center w-1/3 text-white space-x-24"
+          >
+            <ul class="text-xs space-y-2">
+              <h1 class="text-lg">COMPANY</h1>
+              <li>Our Stores</li>
+              <li>About Us</li>
+              <li>Gallery</li>
+              <li>Contact Us</li>
+              <li>Our Stockists</li>
+            </ul>
+            <ul class="text-xs space-y-2">
+              <h1 class="text-lg">CUSTOMER SUPPORT</h1>
+              <li>Shipping & Handling</li>
+              <li>Return & Exchange</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+          <!--Item 03-->
+          <div
+            class="flex flex-col items-start justify-center space-y-6 w-1/3 text-white pl-28"
+          >
+            <h1 class="text-lg">NEWSLETTER</h1>
+            <p class="text-sm">
+              Sign up to receive 10% off on your next <br />
+              purchase
+            </p>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Email Address"
+              class="placeholder:text-gray-700 py-2 pl-3 pr-10 placeholder:text-xs placeholder:font-semibold"
+            />
+          </div>
+        </div>
+        <div class="text-center text-white text-xs">
+          2022 &copy; HUNZA CANDLE ENTERPRISES. ALL RIGHTS RESERVED | DESIGNED &
+          DEVELOPED BY GEXTON
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
